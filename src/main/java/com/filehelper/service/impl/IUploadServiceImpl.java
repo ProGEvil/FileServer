@@ -22,7 +22,8 @@ public class IUploadServiceImpl implements UploadService {
     Date date = new Date();
     //type of date
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd");
-
+    //type of date and time
+    SimpleDateFormat simpleDateTimeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     FileInfoDTO fileInfoDTO = new FileInfoDTO();
     @Override
     public String uploadAndGetUuid(MultipartFile file) {
@@ -40,7 +41,16 @@ public class IUploadServiceImpl implements UploadService {
         String originalFile = file.getOriginalFilename();
 
         if(!originalFile.equals("")){
-
+            //set the file size
+            fileInfoDTO.setFileSize(file.getSize());
+            //set the file type
+            fileInfoDTO.setFileType(file.getContentType());
+            //set the original name
+            fileInfoDTO.setFileName(originalFile);
+            //set the create time
+            fileInfoDTO.setCreateDate(simpleDateTimeFormat.format(date));
+            //set the path
+            fileInfoDTO.setCreatePath(path);
         }
 
         return "";
