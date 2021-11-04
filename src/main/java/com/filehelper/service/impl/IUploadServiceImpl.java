@@ -11,7 +11,7 @@ import java.util.UUID;
 
 /**
  * @ClassName IUploadServiceImpl
- * @Description TODO
+ * @Description upload service
  * @Author prog_evil
  * @Date 2021/11/4 3:00 下午
  * @Version 1.0
@@ -52,7 +52,6 @@ public class IUploadServiceImpl implements UploadService {
             //set the path
             fileInfoDTO.setCreatePath(path);
         }
-
 
         return "";
     }
