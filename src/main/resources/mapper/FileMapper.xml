@@ -1,0 +1,17 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.filehelper.mapper.FileMapper">
+
+    <insert id="insertFileInfo" parameterType="com.filehelper.pojo.FileInfoDTO">
+        insert into fileinfo (id,size,type,originalFilename,createTime,filepath) values (#{id},#{size},#{type},#{originalFilename},#{createTime},#{filepath})
+    </insert>
+
+    <select id="selectFileInfoById" resultType="com.filehelper.pojo.FileInfoDTO">
+        select * from fileinfo where id = #{id}
+    </select>
+
+
+</mapper>
