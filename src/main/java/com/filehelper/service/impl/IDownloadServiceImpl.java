@@ -6,6 +6,7 @@ import com.filehelper.service.DownloadService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
@@ -26,7 +27,7 @@ public class IDownloadServiceImpl implements DownloadService {
     @Autowired
     private FileMapper fileMapper;
     @Override
-    public String downloadAndGetStatus(String uuid, HttpServletResponse response) {
+    public String downloadAndGetStatus(@RequestParam("uuid") String uuid, HttpServletResponse response) {
 
         //get all the info of file
         FileInfoDTO fileInfoDTO = fileMapper.selectFileInfoById(uuid);
@@ -35,7 +36,7 @@ public class IDownloadServiceImpl implements DownloadService {
         if(fileInfoDTO == null) {
             logger.debug("file is null");
             logger.error("Failed to download");
-            return "ERROR";
+            return "410";
         }
 
         //success handling
@@ -56,7 +57,7 @@ public class IDownloadServiceImpl implements DownloadService {
         if(file == null){
             logger.debug("file does't exist , failed");
             logger.error("Failed to download");
-            return "ERROR";
+            return "410";
         }
 
         response.setContentType("application/octet-stream");
@@ -86,9 +87,9 @@ public class IDownloadServiceImpl implements DownloadService {
             e.printStackTrace();
             logger.debug("io exception");
             logger.error("exception of io");
-            return "ERROR";
+            return "410";
         }
 
-        return "ERROR";
+        return "410";
     }
 }

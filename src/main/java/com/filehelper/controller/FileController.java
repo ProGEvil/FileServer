@@ -1,16 +1,17 @@
 package com.filehelper.controller;
 
+import com.filehelper.mapper.FileMapper;
 import com.filehelper.pojo.FileInfoDTO;
+import com.filehelper.pojo.JsonInfoVO;
 import com.filehelper.service.DownloadService;
 import com.filehelper.service.UploadService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * @ClassName FileController
@@ -24,6 +25,11 @@ import org.springframework.web.multipart.MultipartFile;
 @RequestMapping("/file")
 public class FileController {
 
+    @Autowired
+    private FileMapper fileMapper;
+
+    private Logger logger = LoggerFactory.getLogger(FileController.class);
+
     private final UploadService uploadService;
     private final DownloadService downloadService;
 
@@ -35,26 +41,45 @@ public class FileController {
     //upload file
     @PostMapping("/upload")
     public String uploadFile(MultipartFile file){
-        Logger logger = LoggerFactory.getLogger(FileController.class);
 
-
-
-        return "";
+        if(!file.isEmpty()) {
+            String s = uploadService.uploadAndGetUuid(file);
+            logger.debug("uploaded" + file.getName());
+            return s;
+        }
+        logger.debug("file is empty");
+        return "ERROR";
     }
 
     //download file
     @GetMapping("/download")
-    public String downloadFile(){
-        return "";
+    public String downloadFile(String uuid, HttpServletResponse response){
+
+        if (!uuid.equals("")) {
+            downloadService.downloadAndGetStatus(uuid,response);
+        }
+        return "410";
     }
 
     //get the message from file
     @GetMapping("/getInfoById")
-    public FileInfoDTO getFileInfo(){
+    public JsonInfoVO getFileInfo(@RequestParam String uuid){
         //mapper get fileInfo
-        FileInfoDTO fileInfo = new FileInfoDTO();
+        FileInfoDTO fileInfo = fileMapper.selectFileInfoById(uuid);
 
-        return fileInfo;
+        if(fileInfo != null){
+
+            JsonInfoVO jsonInfoVO = new JsonInfoVO(fileInfo);
+            logger.debug("get the json"+jsonInfoVO.getInfo());
+            return jsonInfoVO;
+        }else{
+            fileInfo.setFileName("null");
+            JsonInfoVO jsonInfoVO = new JsonInfoVO(fileInfo);
+
+            logger.debug("file can't be gotten" + fileInfo.getFileName());
+            logger.error("null file");
+            return jsonInfoVO;
+        }
     }
 
 
