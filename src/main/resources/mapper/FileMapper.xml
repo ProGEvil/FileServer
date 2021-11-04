@@ -6,7 +6,7 @@
 <mapper namespace="com.filehelper.mapper.FileMapper">
 
     <insert id="insertFileInfo" parameterType="com.filehelper.pojo.FileInfoDTO">
-        insert into fileinfo (id,size,type,originalFilename,createTime,filepath) values (#{id},#{size},#{type},#{originalFilename},#{createTime},#{filepath})
+        insert into fileinfo (fileId,fileName,fileSize,fileType,createDate,createPath) values (#{fileId},#{fileName},#{fileSize},#{fileType},#{createDate},#{createPath})
     </insert>
 
     <select id="selectFileInfoById" resultType="com.filehelper.pojo.FileInfoDTO">

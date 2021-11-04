@@ -1,12 +1,18 @@
 package com.filehelper.service.impl;
 
+import com.filehelper.mapper.FileMapper;
 import com.filehelper.pojo.FileInfoDTO;
 import com.filehelper.service.UploadService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 import java.util.UUID;
 
 /**
@@ -18,8 +24,13 @@ import java.util.UUID;
  **/
 public class IUploadServiceImpl implements UploadService {
 
+    Logger logger = LoggerFactory.getLogger(IUploadServiceImpl.class);
+
+    @Autowired
+    private FileMapper fileMapper;
     //the current date
     Date date = new Date();
+
     //type of date
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd");
     //type of date and time
@@ -34,8 +45,8 @@ public class IUploadServiceImpl implements UploadService {
         //while dir is null , create
         if(dir == null){
             dir.mkdir();
+            logger.debug("has make a dir");
         }
-
 
         String uuid = UUID.randomUUID().toString();
         String originalFile = file.getOriginalFilename();
@@ -51,8 +62,33 @@ public class IUploadServiceImpl implements UploadService {
             fileInfoDTO.setCreateDate(simpleDateTimeFormat.format(date));
             //set the path
             fileInfoDTO.setCreatePath(path);
-        }
 
-        return "";
+            logger.debug("set all info");
+            //user mapper to insert
+            fileMapper.insertFileInfo(fileInfoDTO);
+
+            //get the file name with uuid
+            String newFileName = uuid + "." + originalFile.substring(originalFile.lastIndexOf(".") +1).toLowerCase();
+
+            try{
+                //output stream for creating file
+                FileOutputStream out = new FileOutputStream(simpleDateFormat + "/" + newFileName);
+                //writing bytes into file
+                out.write(file.getBytes());
+                logger.debug("creating completed");
+            } catch (Exception e) {
+                e.printStackTrace();
+                logger.error("Failed to upload the file");
+                return  uuid;
+            }
+            //output the file upload
+            logger.info("Complete to upload the file!");
+            return uuid;
+        }else{
+            logger.debug("Has not been a file");
+            logger.error("Please upload again because of the empty file");
+
+            return uuid;
+        }
     }
 }
