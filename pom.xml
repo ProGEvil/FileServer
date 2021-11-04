@@ -47,6 +47,11 @@
             <version>1.2.70</version>
         </dependency>
 
+        <dependency>
+            <groupId>springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>1.2.6</version>
+        </dependency>
 
         <dependency>
             <groupId>mysql</groupId>

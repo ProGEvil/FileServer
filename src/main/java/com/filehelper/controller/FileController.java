@@ -30,13 +30,10 @@ public class FileController {
 
     private Logger logger = LoggerFactory.getLogger(FileController.class);
 
-    private final UploadService uploadService;
-    private final DownloadService downloadService;
-
-    public FileController(UploadService uploadService, DownloadService downloadService) {
-        this.uploadService = uploadService;
-        this.downloadService = downloadService;
-    }
+    @Autowired
+    private UploadService uploadService;
+    @Autowired
+    private DownloadService downloadService;
 
     //upload file
     @PostMapping("/upload")
