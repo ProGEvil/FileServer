@@ -15,5 +15,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface FileMapper {
     public void insertFileInfo(FileInfoDTO fileInfoDTO);
-    public FileInfoDTO selectFileInfoById();
+    public FileInfoDTO selectFileInfoById(String uuid);
 }
