@@ -6,5 +6,5 @@ import org.springframework.web.multipart.MultipartFile;
 @Service
 public interface UploadService {
 
-    String uploadAndGetId(MultipartFile file);
+    String uploadAndGetUuid(MultipartFile file);
 }

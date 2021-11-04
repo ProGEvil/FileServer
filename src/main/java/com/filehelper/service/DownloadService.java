@@ -7,5 +7,5 @@ import javax.servlet.http.HttpServletResponse;
 
 @Service
 public interface DownloadService {
-    String downloadAndGetStatus(String id, HttpServletResponse response);
+    String downloadAndGetStatus(String uuid, HttpServletResponse response);
 }

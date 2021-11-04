@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 public class IDownloadServiceImpl implements DownloadService {
 
     @Override
-    public String downloadAndGetStatus(String id, HttpServletResponse response) {
+    public String downloadAndGetStatus(String uuid, HttpServletResponse response) {
         return null;
     }
 }
