@@ -8,4 +8,5 @@ package com.filehelper.mapper;
  * @Version 1.0
  **/
 public class FileMapper {
+
 }
