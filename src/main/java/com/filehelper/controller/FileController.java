@@ -51,7 +51,7 @@ public class FileController {
 
     //download file
     @GetMapping("/download")
-    public String downloadFile(@RequestParam String uuid, HttpServletResponse response){
+    public String downloadFile(@Param("fileId") String uuid, HttpServletResponse response){
 
         if (!uuid.equals("")) {
             downloadService.downloadAndGetStatus(uuid,response);
@@ -61,7 +61,7 @@ public class FileController {
 
     //get the message from file
     @GetMapping("/getInfoById")
-    public JsonInfoVO getFileInfo(@RequestParam String uuid){
+    public JsonInfoVO getFileInfo(@Param("fileId") String uuid){
         //mapper get fileInfo
         FileInfoDTO fileInfo = fileMapper.selectFileInfoById(uuid);
 

@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.math.BigInteger;
 
 /**
@@ -17,7 +18,7 @@ import java.math.BigInteger;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class FileInfoDTO {
+public class FileInfoDTO implements Serializable {
 
     private String fileId;
 

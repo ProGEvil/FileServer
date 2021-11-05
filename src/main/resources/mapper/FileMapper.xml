@@ -8,9 +8,8 @@
         insert into fileinfo (fileId,fileName,fileSize,fileType,createDate,createPath) values (#{fileId},#{fileName},#{fileSize},#{fileType},#{createDate},#{createPath})
     </insert>
 
-    <select id="selectFileInfoById" resultType="com.filehelper.pojo.FileInfoDTO">
+    <select id="selectFileInfoById" parameterType="string" resultType="com.filehelper.pojo.FileInfoDTO">
         select * from fileinfo where fileId = #{fileId}
     </select>
-
 
 </mapper>

@@ -38,7 +38,7 @@ public class IUploadServiceImpl implements UploadService {
     SimpleDateFormat simpleDateTimeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     FileInfoDTO fileInfoDTO = new FileInfoDTO();
     @Override
-    public String uploadAndGetUuid(MultipartFile file) {
+    public String uploadAndGetUuid(@RequestParam MultipartFile file) {
 
         String path = simpleDateFormat.format(date);
 

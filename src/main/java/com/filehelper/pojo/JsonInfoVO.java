@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.io.Serializable;
+
 /**
  * @ClassName JsonInfoVO
  * @Description TODO
@@ -16,7 +18,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class JsonInfoVO {
+public class JsonInfoVO implements Serializable {
     private int code;
 
     private String info;

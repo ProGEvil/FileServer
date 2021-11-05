@@ -3,6 +3,7 @@ package com.filehelper.service.impl;
 import com.filehelper.mapper.FileMapper;
 import com.filehelper.pojo.FileInfoDTO;
 import com.filehelper.service.DownloadService;
+import org.apache.ibatis.annotations.Param;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

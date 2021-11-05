@@ -40,10 +40,6 @@ public class FileTest {
     public void contextLoads() {
     }
 
-    /**
-     * 注入属性
-     * war == new FileController()
-     */
 
     @Autowired
     private WebApplicationContext webApplicationContext;
@@ -77,7 +73,7 @@ public class FileTest {
                                             new MockMultipartFile("file", "test.txt", ",multipart/form-data", "hello upload".getBytes("UTF-8"))
                                     )
                     ).andExpect(status().isOk())
-                    //返回响应结果
+                    //return response
                     .andReturn().getResponse().getContentAsString();
             logger.debug("create file");
             logger.info(result);
