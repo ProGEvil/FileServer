@@ -5,6 +5,7 @@ import com.filehelper.pojo.FileInfoDTO;
 import com.filehelper.pojo.JsonInfoVO;
 import com.filehelper.service.DownloadService;
 import com.filehelper.service.UploadService;
+import org.apache.ibatis.annotations.Param;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,7 +38,7 @@ public class FileController {
 
     //upload file
     @PostMapping("/upload")
-    public String uploadFile(MultipartFile file){
+    public String uploadFile(@RequestParam MultipartFile file){
 
         if(!file.isEmpty()) {
             String s = uploadService.uploadAndGetUuid(file);
@@ -50,7 +51,7 @@ public class FileController {
 
     //download file
     @GetMapping("/download")
-    public String downloadFile(String uuid, HttpServletResponse response){
+    public String downloadFile(@RequestParam String uuid, HttpServletResponse response){
 
         if (!uuid.equals("")) {
             downloadService.downloadAndGetStatus(uuid,response);

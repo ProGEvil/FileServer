@@ -27,7 +27,7 @@ public class IDownloadServiceImpl implements DownloadService {
     @Autowired
     private FileMapper fileMapper;
     @Override
-    public String downloadAndGetStatus(@RequestParam("uuid") String uuid, HttpServletResponse response) {
+    public String downloadAndGetStatus(String uuid, HttpServletResponse response) {
 
         //get all the info of file
         FileInfoDTO fileInfoDTO = fileMapper.selectFileInfoById(uuid);
