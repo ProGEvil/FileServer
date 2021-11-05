@@ -1,0 +1,141 @@
+2021-11-05 11:50:06.172  INFO 56736 --- [main] com.filehelper.FileTest                  : Starting FileTest using Java 1.8.0_302 on ProG-Evil with PID 56736 (started by prog_evil in /Users/prog_evil/IdeaProjects/FileSupport)
+2021-11-05 11:50:06.177  INFO 56736 --- [main] com.filehelper.FileTest                  : No active profile set, falling back to default profiles: default
+2021-11-05 11:50:10.726  INFO 56736 --- [main] com.filehelper.FileTest                  : Started FileTest in 5.128 seconds (JVM running for 6.48)
+2021-11-05 11:50:10.922  INFO 56736 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:50:10.923  INFO 56736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:50:10.927  INFO 56736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2021-11-05 11:50:11.022  INFO 56736 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:50:11.023  INFO 56736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:50:11.024  INFO 56736 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:50:39.814  INFO 56971 --- [main] com.filehelper.FileTest                  : Starting FileTest using Java 1.8.0_302 on ProG-Evil with PID 56971 (started by prog_evil in /Users/prog_evil/IdeaProjects/FileSupport)
+2021-11-05 11:50:39.829  INFO 56971 --- [main] com.filehelper.FileTest                  : No active profile set, falling back to default profiles: default
+2021-11-05 11:50:43.794  INFO 56971 --- [main] com.filehelper.FileTest                  : Started FileTest in 4.58 seconds (JVM running for 5.955)
+2021-11-05 11:50:43.990  INFO 56971 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:50:43.991  INFO 56971 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:50:43.992  INFO 56971 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:50:44.062  INFO 56971 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:50:44.063  INFO 56971 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:50:44.064  INFO 56971 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:50:44.072  INFO 56971 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:50:44.074  INFO 56971 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:50:44.075  INFO 56971 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2021-11-05 11:50:44.095  INFO 56971 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:50:44.095  INFO 56971 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:50:44.101  INFO 56971 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2021-11-05 11:51:47.102  INFO 57501 --- [main] com.filehelper.FileTest                  : Starting FileTest using Java 1.8.0_302 on ProG-Evil with PID 57501 (started by prog_evil in /Users/prog_evil/IdeaProjects/FileSupport)
+2021-11-05 11:51:47.110  INFO 57501 --- [main] com.filehelper.FileTest                  : No active profile set, falling back to default profiles: default
+2021-11-05 11:51:51.198  INFO 57501 --- [main] com.filehelper.FileTest                  : Started FileTest in 4.658 seconds (JVM running for 6.062)
+2021-11-05 11:51:51.387  INFO 57501 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:51:51.388  INFO 57501 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:51:51.390  INFO 57501 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2021-11-05 11:51:51.477  INFO 57501 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:51:51.477  INFO 57501 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:51:51.479  INFO 57501 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:51:51.489  INFO 57501 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:51:51.489  INFO 57501 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:51:51.490  INFO 57501 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:51:51.550  INFO 57501 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:51:51.551  INFO 57501 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:51:51.551  INFO 57501 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2021-11-05 11:52:20.536  INFO 57740 --- [main] com.filehelper.FileTest                  : Starting FileTest using Java 1.8.0_302 on ProG-Evil with PID 57740 (started by prog_evil in /Users/prog_evil/IdeaProjects/FileSupport)
+2021-11-05 11:52:20.546  INFO 57740 --- [main] com.filehelper.FileTest                  : No active profile set, falling back to default profiles: default
+2021-11-05 11:52:24.675  INFO 57740 --- [main] com.filehelper.FileTest                  : Started FileTest in 4.632 seconds (JVM running for 5.868)
+2021-11-05 11:52:24.875  INFO 57740 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:52:24.876  INFO 57740 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:52:24.879  INFO 57740 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2021-11-05 11:52:25.089  INFO 57740 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:52:25.090  INFO 57740 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:52:25.093  INFO 57740 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2021-11-05 11:52:25.101  INFO 57740 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:52:25.109  INFO 57740 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:52:25.110  INFO 57740 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:52:25.144  INFO 57740 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:52:25.145  INFO 57740 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:52:25.146  INFO 57740 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:53:46.696  INFO 58371 --- [main] com.filehelper.FileTest                  : Starting FileTest using Java 1.8.0_302 on ProG-Evil with PID 58371 (started by prog_evil in /Users/prog_evil/IdeaProjects/FileSupport)
+2021-11-05 11:53:46.705  INFO 58371 --- [main] com.filehelper.FileTest                  : No active profile set, falling back to default profiles: default
+2021-11-05 11:53:50.794  INFO 58371 --- [main] com.filehelper.FileTest                  : Started FileTest in 4.762 seconds (JVM running for 6.04)
+2021-11-05 11:53:51.023  INFO 58371 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:53:51.024  INFO 58371 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:53:51.029  INFO 58371 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2021-11-05 11:53:51.151  INFO 58371 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:53:51.152  INFO 58371 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:53:51.158  INFO 58371 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
+2021-11-05 11:53:51.175  INFO 58371 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:53:51.176  INFO 58371 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:53:51.177  INFO 58371 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:53:51.209  INFO 58371 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:53:51.210  INFO 58371 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:53:51.211  INFO 58371 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:54:15.407  INFO 58526 --- [main] com.filehelper.FileTest                  : Starting FileTest using Java 1.8.0_302 on ProG-Evil with PID 58526 (started by prog_evil in /Users/prog_evil/IdeaProjects/FileSupport)
+2021-11-05 11:54:15.411  INFO 58526 --- [main] com.filehelper.FileTest                  : No active profile set, falling back to default profiles: default
+2021-11-05 11:54:20.141  INFO 58526 --- [main] com.filehelper.FileTest                  : Started FileTest in 5.286 seconds (JVM running for 6.697)
+2021-11-05 11:54:20.407  INFO 58526 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:54:20.407  INFO 58526 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:54:20.409  INFO 58526 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:54:20.602  INFO 58526 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:54:20.604  INFO 58526 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:54:20.606  INFO 58526 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2021-11-05 11:56:08.329  INFO 59384 --- [main] com.filehelper.FileTest                  : Starting FileTest using Java 1.8.0_302 on ProG-Evil with PID 59384 (started by prog_evil in /Users/prog_evil/IdeaProjects/FileSupport)
+2021-11-05 11:56:08.334  INFO 59384 --- [main] com.filehelper.FileTest                  : No active profile set, falling back to default profiles: default
+2021-11-05 11:56:12.503  INFO 59384 --- [main] com.filehelper.FileTest                  : Started FileTest in 4.711 seconds (JVM running for 5.938)
+2021-11-05 11:56:12.727  INFO 59384 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:56:12.727  INFO 59384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:56:12.730  INFO 59384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2021-11-05 11:56:12.830  INFO 59384 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:56:12.830  INFO 59384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:56:12.832  INFO 59384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:56:18.563  INFO 59464 --- [main] com.filehelper.FileTest                  : Starting FileTest using Java 1.8.0_302 on ProG-Evil with PID 59464 (started by prog_evil in /Users/prog_evil/IdeaProjects/FileSupport)
+2021-11-05 11:56:18.569  INFO 59464 --- [main] com.filehelper.FileTest                  : No active profile set, falling back to default profiles: default
+2021-11-05 11:56:22.758  INFO 59464 --- [main] com.filehelper.FileTest                  : Started FileTest in 4.704 seconds (JVM running for 6.012)
+2021-11-05 11:56:22.954  INFO 59464 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:56:22.954  INFO 59464 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:56:22.956  INFO 59464 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2021-11-05 11:56:23.054  INFO 59464 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:56:23.054  INFO 59464 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:56:23.055  INFO 59464 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:57:04.460  INFO 59775 --- [main] com.filehelper.FileTest                  : Starting FileTest using Java 1.8.0_302 on ProG-Evil with PID 59775 (started by prog_evil in /Users/prog_evil/IdeaProjects/FileSupport)
+2021-11-05 11:57:04.467  INFO 59775 --- [main] com.filehelper.FileTest                  : No active profile set, falling back to default profiles: default
+2021-11-05 11:57:08.526  INFO 59775 --- [main] com.filehelper.FileTest                  : Started FileTest in 4.568 seconds (JVM running for 5.836)
+2021-11-05 11:57:08.736  INFO 59775 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:57:08.737  INFO 59775 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:57:08.741  INFO 59775 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2021-11-05 11:57:08.865  INFO 59775 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:57:08.866  INFO 59775 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:57:08.867  INFO 59775 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:57:08.875  INFO 59775 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:57:08.884  INFO 59775 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:57:08.884  INFO 59775 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2021-11-05 11:57:08.908  INFO 59775 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:57:08.909  INFO 59775 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:57:08.910  INFO 59775 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:58:25.939  INFO 60384 --- [main] com.filehelper.FileTest                  : Starting FileTest using Java 1.8.0_302 on ProG-Evil with PID 60384 (started by prog_evil in /Users/prog_evil/IdeaProjects/FileSupport)
+2021-11-05 11:58:25.947  INFO 60384 --- [main] com.filehelper.FileTest                  : No active profile set, falling back to default profiles: default
+2021-11-05 11:58:30.018  INFO 60384 --- [main] com.filehelper.FileTest                  : Started FileTest in 4.643 seconds (JVM running for 5.875)
+2021-11-05 11:58:30.195  INFO 60384 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:58:30.196  INFO 60384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:58:30.198  INFO 60384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2021-11-05 11:58:30.344  INFO 60384 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:58:30.346  INFO 60384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:58:30.349  INFO 60384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2021-11-05 11:58:30.362  INFO 60384 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:58:30.372  INFO 60384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:58:30.372  INFO 60384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2021-11-05 11:58:30.404  INFO 60384 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:58:30.405  INFO 60384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:58:30.407  INFO 60384 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2021-11-05 11:59:12.653  INFO 60702 --- [main] com.filehelper.FileTest                  : Starting FileTest using Java 1.8.0_302 on ProG-Evil with PID 60702 (started by prog_evil in /Users/prog_evil/IdeaProjects/FileSupport)
+2021-11-05 11:59:12.662  INFO 60702 --- [main] com.filehelper.FileTest                  : No active profile set, falling back to default profiles: default
+2021-11-05 11:59:16.611  INFO 60702 --- [main] com.filehelper.FileTest                  : Started FileTest in 4.475 seconds (JVM running for 5.832)
+2021-11-05 11:59:16.809  INFO 60702 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:59:16.809  INFO 60702 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:59:16.811  INFO 60702 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:59:16.900  INFO 60702 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:59:16.900  INFO 60702 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:59:16.903  INFO 60702 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2021-11-05 11:59:16.913  INFO 60702 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:59:16.913  INFO 60702 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:59:16.914  INFO 60702 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-11-05 11:59:16.938  INFO 60702 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-11-05 11:59:16.941  INFO 60702 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-11-05 11:59:16.941  INFO 60702 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms

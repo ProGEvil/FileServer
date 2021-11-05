@@ -1,0 +1,10 @@
+/Users/prog_evil/IdeaProjects/FileSupport/src/main/java/com/filehelper/pojo/JsonInfoVO.java
+/Users/prog_evil/IdeaProjects/FileSupport/src/main/java/com/filehelper/FileSupportApplication.java
+/Users/prog_evil/IdeaProjects/FileSupport/src/main/java/com/filehelper/controller/FileController.java
+/Users/prog_evil/IdeaProjects/FileSupport/src/main/java/com/filehelper/service/DownloadService.java
+/Users/prog_evil/IdeaProjects/FileSupport/src/main/java/com/filehelper/pojo/FileInfoDTO.java
+/Users/prog_evil/IdeaProjects/FileSupport/src/main/java/com/filehelper/service/UploadService.java
+/Users/prog_evil/IdeaProjects/FileSupport/src/main/java/com/filehelper/service/impl/IUploadServiceImpl.java
+/Users/prog_evil/IdeaProjects/FileSupport/src/main/java/com/filehelper/service/impl/IDownloadServiceImpl.java
+/Users/prog_evil/IdeaProjects/FileSupport/src/main/java/com/filehelper/mapper/FileMapper.java
+/Users/prog_evil/IdeaProjects/FileSupport/src/main/java/com/filehelper/controller/IndexController.java

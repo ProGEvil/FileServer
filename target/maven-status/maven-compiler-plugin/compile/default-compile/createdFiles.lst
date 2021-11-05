@@ -1,0 +1,10 @@
+com/filehelper/mapper/FileMapper.class
+com/filehelper/controller/FileController.class
+com/filehelper/FileSupportApplication.class
+com/filehelper/service/impl/IUploadServiceImpl.class
+com/filehelper/service/impl/IDownloadServiceImpl.class
+com/filehelper/service/UploadService.class
+com/filehelper/pojo/FileInfoDTO.class
+com/filehelper/controller/IndexController.class
+com/filehelper/service/DownloadService.class
+com/filehelper/pojo/JsonInfoVO.class
